@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="alihassan.png" type="image/x-icon">
+    <link rel="icon" href="alihassan.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="alihassan.png" sizes="16x16" type="image/png">
+    
+    <!-- Title Tag -->
+    <title>Ali Hassan - Web Developer & UI/UX Designer | Portfolio</title>
+    
+    <!-- Meta Description -->
+    <meta name="description" content="Ali Hassan's portfolio showcasing skills in web development, UI/UX design, front-end, full-stack development. Discover innovative projects and freelance services.">
+    
+    <!-- Meta Keywords -->
+    <meta name="keywords" content="Ali Hassan, web developer, full-stack developer, UI/UX designer, portfolio, freelance developer, web development, web design, JavaScript, React, Node.js">
+    
+    <!-- Author Tag -->
+    <meta name="author" content="Ali Hassan">
+    
+    <!-- Robots Tag -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Ali Hassan - Web Developer & UI/UX Designer Portfolio">
+    <meta property="og:description" content="Explore Ali Hassan's portfolio of web development and UI/UX design. Offering full-stack solutions, freelance development, and web design services.">
+    <meta property="og:image" content="alihassan.png">
+    <meta property="og:url" content="https://hassantahir.netlify.app">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ali Hassan - Web Developer & UI/UX Designer Portfolio">
+    <meta name="twitter:description" content="Explore Ali Hassan's portfolio showcasing skills in full-stack development, front-end web development, and UI/UX design.">
+    <meta name="twitter:image" content="alihassan.png">
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://alihassanofficial.netlify.app/">
+    
+    <!-- Structured Data (Schema Markup) -->
+   
+
+    
+    <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="profile">
+            <a href="https://www.linkedin.com/in/alihassantahir/" target="_blank">
+                <img src="icon.png" alt="Profile picture of Ali Hassan">
+            </a>
+            
+            <div class="name">Ali Hassan</div>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#content">Home</a></li>
+                <li><a href="#container">About Me</a></li>
+                <li><a href="#expertise-section">Services</a></li>
+                <li><a href="#section">Portfolio</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="content" class="content">
+        <div class="content-text">
+            <p>Hi, I am Ali Hassan</p>
+            <h1>I create product design and brand experience</h1>
+            <h2>Showcasing innovative web solutions, seamless coding, and creative designs. Turning ideas into reality with expertise and cutting-edge technologies.</h2>
+        </div>
+        <div class="content-image">
+            <a href="https://www.linkedin.com/in/alihassantahir/" target="_blank">
+                <img src="ali.png" alt="Ali Hassan">
+            </a>
+        </div>
+        
+    </div>
+    <section id="expertise-section" class="expertise-section">
+        <h2>My Skills</h2>
+        <h1>My Expertise</h1>
+        <div class="expertise-container">
+            <div class="expertise-card">
+                <img src="Strategy & Direction.png" alt="Strategy & Direction">
+                <h3>Strategy & Direction</h3>
+                <p>Empowering businesses with strategic clarity and direction. Aligning vision, goals, and actions to drive sustainable growth and lasting impact.</p>
+            </div>
+            <div class="expertise-card">
+                <img src="data:image/png;base64,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" alt="Branding & Logo">
+                <h3>Branding & Logo</h3>
+                <p>Creating impactful branding and memorable logos that capture your essence, resonate with your audience, and elevate your business identity.</p>
+            </div>
+            <div class="expertise-card">
+                <img src="UI & UX Design.png" alt="UI & UX Design">
+                <h3>UI & UX Design</h3>
+                <p>Crafting intuitive, user-centric designs that blend aesthetics and functionality, ensuring seamless digital experiences that engage and inspire users.</p>
+            </div>
+            <div class="expertise-card">
+                <img src="Webflow Development.png" alt="Webflow Development">
+                <h3>Webflow Development</h3>
+                <p>Building responsive, scalable websites with Webflow. Combining design precision and seamless functionality to deliver exceptional digital experiences.</p>
+            </div>
+
+        </div>
+        <header>
+            <h1>Personal Portfolio</h1>
+        </header>
+    
+        <div id="container" class="container">
+            About Me Section
+            <section class="section about-me">
+                <h2>About</h2>
+                <h1>About Me</h1>
+                <img src="icon.png" alt="Profile Picture">
+                <p>Welcome to My Digital Portfolio
+                    I am Ali Hassan, a professional software developer passionate about crafting efficient, scalable, and user-friendly solutions for modern businesses. With [X years of experience], I specialize in [your specialties, e.g., full-stack development, mobile apps, cloud solutions], blending technical expertise with creative problem-solving to deliver impactful results.With a strong foundation in [list key programming languages/tools], I have a proven track record of turning complex ideas into innovative, functional products. My journey in technology began [brief background], and today, I am committed to staying at the forefront of the ever-evolving tech landscape.
+
+                    Whether building web applications, optimizing existing systems, or collaborating with cross-functional teams, I bring a detail-oriented approach and a passion for excellence to every project.</p>
+                </section>
+                
+                <!-- Portfolio Section -->
+            <section id="section" class="section">
+                <h2>Portfolio</h2>
+                <h1>My Portfolio</h1>
+                <div class="portfolio-grid">
+                    <div class="card">
+                        <img src="Project 1.png" alt="Project Image">
+                        <h3>Project 1</h3>
+                        <p>Project description goes here.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Project 2.png" alt="Project Image">
+                        <h3>Project 2</h3>
+                        <p>Project description goes here.</p>
+                    </div>
+                    <div class="card">
+                        <img src="Project 3.png" alt="Project Image">
+                        <h3>Project 3</h3>
+                        <p>Project description goes here.</p>
+                    </div>
+                </div>
+            </section>
+    
+            <!-- Testimonials Section -->
+            <section class="section">
+                <h2>Feedback</h2>
+                <h1>Customer Testimonials</h1>
+                <div class="testimonials-grid">
+                    <div class="card1">
+                        <img src="John Doe.png" alt="" >
+                        <p>"Great work! Highly recommend."</p>
+                        <p>- John Doe</p>
+                    </div>
+                    <div class="card2">
+                        <img src="Dianne Russell.png" alt="">
+                        <p>"Amazing service and quick delivery."</p>
+                        <p>- Dianne Russell</p>
+                    </div>
+                    <div class="card3">
+                        <img src="Mike Lee.png" alt="">
+                        <p>"Very professional and skilled."</p>
+                        <p>- Mike Lee</p>
+                    </div>
+                </div>
+                <div class="linkedin-section">
+                    <img src="https://media.licdn.com/dms/image/v2/D4D03AQE8c5oiyD0Fgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1729771327181?e=1738800000&v=beta&t=06p0elZ4bHV-vkYxhn_GFxB5WCXywg7djWdLm5DqewA" alt="Ali Hassan">
+                    <h2>Connect with Ali Hassan</h2>
+                    <p>Follow me on LinkedIn for professional updates, networking, and opportunities!</p>
+                    <a href="https://www.linkedin.com/in/alihassantahir/" target="_blank">Visit LinkedIn Profile</a>
+                </div>
+                <form id="contact-form" class="contact-form" action="send_email.php" method="POST">
+                    <input type="text" id="fullName" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email_id" name="email" placeholder="Your Gmail" required>
+                    <input type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+                
+                <footer>
+                    <p>&copy; 2024 Ali Hassan. All rights reserved.</p>
+                </footer>
+                
+        
+
+
+        
+</body>
+</html> 
+
+
